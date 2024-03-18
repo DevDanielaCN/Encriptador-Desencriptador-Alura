@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desencriptador</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    
+</head>
+<body>
+    <main>
+        <h1 class="logo"><img src="assets/imgs/logo.svg" loading="lazy" alt="logo"></h1>
+        <section class="texto-contenedor contenedor">
+            <textarea name="texto" id="texto" placeholder="Ingrese el texto ..."></textarea>
+            <div class="footer-texto-contenedor">
+                <span class="alerta-contenedor" id="alerta-contenedor">
+                    <img class="icono" src="assets/imgs/exclamacion.svg" loading="lazy" alt="informacion"><p class="alerta" id="alerta">Solo letras minúsculas y sin acentos</p>
+                </span>
+                <div class="botones">
+                    <button id="encriptar" class="btn btn-principal" disabled="true">Encriptar</button>
+                    <button id="desencriptar" class="btn btn-secundario" disabled="true">Desencriptar</button>
+                </div>
+            </div>
+        </section>
+        <section class="texto-encriptado-contenedor contenedor" >
+            <div class="texto-encriptado" id="resultado">
+                <img src="assets/imgs/munieeco.png" loading="lazy" alt="Ningún texto">
+            <h4>Ningún mensaje fue encontrado</h4>
+            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="footer" id="copy_block">
+                <button class="btn btn-secundario" id="btn-copiar">Copiar</button>
+                <span class="msg-copy" id="msg-copy"></span>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <p>Desarrollado por <strong>Daniela Carrasco</strong></p>
+        <div>
+            <a target="_blank" href="https://www.linkedin.com/in/daniela-carrasco-nolazco-604431248"><img class="link-svg" src="assets/imgs/in.svg" loading="lazy" alt="linkeding"></a>
+            <a target="_blank" href="https://github.com/DevDanielaCN"><img class="link-svg" src="assets/imgs/git.svg" loading="lazy" alt="github"></a>
+        </div>
+    </footer>
+    <!-- scrips -->
+    <script src="js/app.js"></script>
+</body>
+</html>
