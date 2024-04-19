@@ -234,6 +234,7 @@ footer .link-svg{
     }
     .texto-encriptado{
         width: 100%;
+        min-height: 120px;
         max-height: 550px;
         margin-bottom: 0;
     }
